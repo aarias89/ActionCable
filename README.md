@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A mock Slack  Ruby on Rails application showing realtime chat using ActionCable.
 
-Things you may want to cover:
+## Run Locally
 
-* Ruby version
+```bash
+bundle install
+```
 
-* System dependencies
+```
+rails db:create
+```
 
-* Configuration
+```
+rails db:migrate
+```
 
-* Database creation
+```
+rails s -p 30001
+```
 
-* Database initialization
+On browser go to http://localhost:3001/
 
-* How to run the test suite
+Create Username and login
+ 
+Open incognito browser go to http://localhost:3001/
 
-* Services (job queues, cache servers, search engines, etc.)
+Create Username and login
 
-* Deployment instructions
-
-* ...
